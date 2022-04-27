@@ -7,15 +7,12 @@ public class Aula2704 {
     boolean vivo; //false
 
     public void metodo1(){
-
+        String nome = "Eder";
+        System.out.println(nome);
+        System.out.println(this.nome);
     }
 
     public void metodo2(){
 
     }
-
-    public static void main(String[] args){
-
-    }
-
 }
