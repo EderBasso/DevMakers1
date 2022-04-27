@@ -3,8 +3,12 @@ package com.letscode;
 public class Main {
 
     public static void main(String[] args) {
-	Aula2704 aula2704 = new Aula2704();
+	Pessoa pessoa1 = new Pessoa();
 
-    aula2704.metodo1();
+    pessoa1.idade = 30;
+    pessoa1.vivo = true;
+
+    pessoa1.setNome("Eder");
+    System.out.println(pessoa1.getNome());
     }
 }
